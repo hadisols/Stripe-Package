@@ -36,7 +36,12 @@
 		<members>Payment_Gateway__c</members>
 		<members>Relationship_Settings__c</members>
 		<members>Latest_Invoice__c</members>
-
+		<members>Tax_Rate__c</members>
+		<members>Tax_Code__c</members>
+		<members>Discount__c</members>
+		<members>Coupon__c</members>
+		<members>Payment_Intent__c</members>
+		<members>Invoice_Item__c</members>
 		<name>CustomObject</name>
 	</types>
 	<!--
@@ -49,6 +54,7 @@
 	
 	<types>
 		<members>Subscription_Record_Page</members>
+		<members>Coupon_Record_Page</members>
 		<name>FlexiPage</name>
 	</types>
 	
