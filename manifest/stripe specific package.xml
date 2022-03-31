@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
-		
 		<members>SYS_Stripe_ApplicationService</members>
 		<name>ApexClass</name>
 	</types>
@@ -29,8 +28,15 @@
 	</types>
 	-->
 	<types>
+		
+		<members>Subscription_Item__c</members>
 		<members>Subscription__c</members>
-		<members>Subscription_item__c</members>
+		<members>Payment_Method__c</members>
+		<members>Payment_Gateway_Customer__c</members>
+		<members>Payment_Gateway__c</members>
+		<members>Relationship_Settings__c</members>
+		<members>Latest_Invoice__c</members>
+
 		<name>CustomObject</name>
 	</types>
 	<!--
@@ -40,12 +46,13 @@
 		<name>CustomTab</name>
 	</types>
 	-->
-	<!--
+	
 	<types>
-		<members>SYS_IntegrationLog_Record_Page</members>
-		<members>SYS_OAuth_Configs</members>
+		<members>Subscription_Record_Page</members>
 		<name>FlexiPage</name>
 	</types>
+	
+	<!--
 	<types>
 		<members>Invoke_refresh_token_flow</members>
 		<members>SYS_Flow_for_log_retry</members>
