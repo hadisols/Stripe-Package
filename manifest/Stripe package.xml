@@ -22,13 +22,15 @@
 		<name>CustomField</name>
 	</types>
 	-->
+	<!--
 	<types>
 		<members>*</members>
 		<name>CustomMetadata</name>
 	</types>
+	-->
 	<types>
 		<members>Subscription__c</members>
-		<members>subscription_item__c</members>
+		<members>Subscription_item__c</members>
 		<name>CustomObject</name>
 	</types>
 	<!--
@@ -80,10 +82,12 @@
 		<name>QuickAction</name>
 	</types>
 	-->
+	<!--
 	<types>
 		<members>StripeRemoteSiteSetting</members>
 		<name>RemoteSiteSetting</name>
 	</types>
+	-->
 	<!--
 	<types>
 		<members>SYS_Test_Inbound_Body</members>
