@@ -14,13 +14,34 @@
 		<members>SYS_Aura_JWTAuthFlow</members>
 		<name>AuraDefinitionBundle</name>
 	</types>
+	-->
 	<types>
-		<members>Account.SYS_Key__c</members>
-		<members>Account.Trigger_Flow__c</members>
-		<members>Contact.SYS_Child_Key__c</members>
+		<members>Account.Delinquent__c</members>
+		<members>Account.Current_balance__c</members>
+		<members>Account.Discount__c</members>
+		<members>Account.Email__c</members>
+		<members>Account.Deafult_Payment_Method__c</members>
+
+		<members>Product2.SYS_Key__c</members>
+
+		<members>PricebookEntry.Active__c</members>
+		<members>PricebookEntry.Billing_Scheme__c</members>
+		<members>PricebookEntry.Livemode__c</members>
+		<members>PricebookEntry.Lookup_Key__c</members>
+		<members>PricebookEntry.Nickname__c</members>
+		<members>PricebookEntry.Product__c</members>
+		<members>PricebookEntry.Recurring_Interval__c</members>
+		<members>PricebookEntry.Subscription__c</members>
+		<members>PricebookEntry.SYS_Key__c</members>
+		<members>PricebookEntry.Tax_Behavior__c</members>
+		<members>PricebookEntry.Tiers_Mode__c</members>
+		<members>PricebookEntry.Transform_Quantity_Divide_By__c</members>
+		<members>PricebookEntry.Transform_Quantity_Round__c</members>
+		<members>PricebookEntry.Type__c</members>
+
 		<name>CustomField</name>
 	</types>
-	-->
+	
 	<!--
 	<types>
 		<members>*</members>
@@ -95,12 +116,12 @@
 		<name>QuickAction</name>
 	</types>
 	-->
-	<!--
+	
 	<types>
-		<members>StripeRemoteSiteSetting</members>
+		<members>SYS_Stripe_Remote_Site_Setting</members>
 		<name>RemoteSiteSetting</name>
 	</types>
-	-->
+	
 	<!--
 	<types>
 		<members>SYS_Test_Inbound_Body</members>
