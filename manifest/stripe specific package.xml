@@ -42,12 +42,107 @@
 		<name>CustomField</name>
 	</types>
 	
-	<!--
+	
 	<types>
-		<members>*</members>
+		<members>IntegrationSetting.Stripe_Integration_Setting</members>
+		<members>IntegrationEnablement.Stripe_Integration_Enablement</members>
+		<members>ObjectSetting.OS_for_Coupon_c</members>
+		<members>ObjectSetting.OS_for_Discount_c</members>
+		<members>ObjectSetting.OS_for_Payment_Intent_c</members>
+		<members>ObjectSetting.OS_for_Subscription_c</members>
+		<members>ObjectSetting.OS_for_Subscription_Item_c</members>
+		<members>ObjectSetting.OS_for_Tax_Code_c</members>
+		<members>ObjectSetting.OS_for_Tax_Rate_c</members>
+		<members>ObjectSetting.OS_for_Account</members>
+		<members>ObjectSetting.OS_for_PricebookEntry</members>
+		<members>ObjectSetting.OS_for_Product2</members>
+		<members>ObjectSetting.SYS_Auth_JWT_Object_Setting</members>
+		<members>ObjectSetting.SYS_OAuth_CC_Object_Setting</members>
+		<members>ObjectSetting.SYS_OAuth_Object_Setting</members>
+		<members>ObjectSetting.SYS_OAuth_Pwd_Object_Setting</members>
+		<members>ObjectSetting.SYS_OAuth_Refresh_Object_Setting</members>
+		<members>ObjectSetting.SYS_Test_Account_Object_Setting</members>
+
+		<members>FieldSetting.FS_for_Account_c</members>
+		<members>FieldSetting.FS_for_Account_r_SYS_Key_c</members>
+		<members>FieldSetting.FS_for_Active_c</members>
+		<members>FieldSetting.FS_for_Automatic_Tax_c</members>
+		<members>FieldSetting.FS_for_Billing_Scheme_c</members>
+		<members>FieldSetting.FS_for_Billing_Thresholds_Amount_c</members>
+		<members>FieldSetting.FS_for_Billing_Thresholds_Usage_c</members>
+		<members>FieldSetting.FS_for_Cancel_at_Period_End_c</members>
+		<members>FieldSetting.FS_for_Collection_Method_c</members>
+		<members>FieldSetting.FS_for_Current_balance_c</members>
+		<members>FieldSetting.FS_for_Days_Until_Due_c</members>
+		<members>FieldSetting.FS_for_Delinquent_c</members>
+		<members>FieldSetting.FS_for_Discount_c</members>
+		<members>FieldSetting.FS_for_Discount_c_Subscription</members>
+		<members>FieldSetting.FS_for_DPM_r_SYS_Key_c</members>
+		<members>FieldSetting.FS_for_Email_c</members>
+		<members>FieldSetting.FS_for_Latest_Invoice_c</members>
+		<members>FieldSetting.FS_for_Latest_Invoice_r_SYS_Key_c</members>
+		<members>FieldSetting.FS_for_Livemode_c</members>
+		<members>FieldSetting.FS_for_Lookup_Key_c</members>
+		<members>FieldSetting.FS_for_Nickname_c</members>
+		<members>FieldSetting.FS_for_Pause_Collection_Behavior_c</members>
+		<members>FieldSetting.FS_for_Payment_Method_c</members>
+		<members>FieldSetting.FS_for_Payment_Method_r_SYS_Key_c</members>
+		<members>FieldSetting.FS_for_Pending_Invoice_Item_Interval_c</members>
+		<members>FieldSetting.FS_for_Pending_Setup_Intent_c</members>
+		<members>FieldSetting.FS_for_PIIIC</members>
+		<members>FieldSetting.FS_for_Price_c</members>
+		<members>FieldSetting.FS_for_Product2Id_SYS_Key_c</members>
+		<members>FieldSetting.FS_for_PUTFP</members>
+		<members>FieldSetting.FS_for_Quantity_c</members>
+		<members>FieldSetting.FS_for_recurring_interval_c</members>
+		<members>FieldSetting.FS_for_Reset_Billing_Cycle_Anchor_c</members>
+		<members>FieldSetting.FS_for_Schedule_c</members>
+		<members>FieldSetting.FS_for_Start_Date_c</members>
+		<members>FieldSetting.FS_for_Status_c</members>
+		<members>FieldSetting.FS_for_Subscription_c</members>
+		<members>FieldSetting.FS_for_SYS_Key_c</members>
+		<members>FieldSetting.FS_for_SYS_Key_c_PBE</members>
+		<members>FieldSetting.FS_for_SYS_Key_c_Product</members>
+		<members>FieldSetting.FS_for_SYS_Key_c_Subs_Item</members>
+		<members>FieldSetting.FS_for_SYS_Key_c_Subscription</members>
+		<members>FieldSetting.FS_for_SYS_Key_c_Subscription_OB</members>
+		<members>FieldSetting.FS_for_Tax_Behavior_c</members>
+		<members>FieldSetting.FS_for_Tax_Rate_c</members>
+		<members>FieldSetting.FS_for_Tax_Rate_r_SYS_Key_c</members>
+		<members>FieldSetting.FS_for_Tiers_Mode_c</members>
+		<members>FieldSetting.FS_for_Transfer_Data_Amount_Percent_c</members>
+		<members>FieldSetting.FS_for_Transfer_Data_Destination_c</members>
+		<members>FieldSetting.FS_for_Transform_Quantity_Divide_By_c</members>
+		<members>FieldSetting.FS_for_Transform_Quantity_Round_c</members>
+		<members>FieldSetting.FS_for_Type_c</members>
+		<members>FieldSetting.FS_for_Unit_Amount_Decimal_c</members>
+		<members>FieldSetting.FS_for_UnitPrice</members>
+		<members>FieldSetting.FS_for_AccountNumber</members>
+		<members>FieldSetting.FS_for_BillingCity</members>
+		<members>FieldSetting.FS_for_BillingCountry</members>
+		<members>FieldSetting.FS_for_BillingPostalCode</members>
+		<members>FieldSetting.FS_for_BillingState</members>
+		<members>FieldSetting.FS_for_currency</members>
+		<members>FieldSetting.FS_for_currency_PBE</members>
+		<members>FieldSetting.FS_for_Description</members>
+		<members>FieldSetting.FS_for_Description_Product</members>
+		<members>FieldSetting.FS_for_Invoice_Item_Interval_Count_c</members>
+		<members>FieldSetting.FS_for_IsActive</members>
+		<members>FieldSetting.FS_for_Name</members>
+		<members>FieldSetting.FS_for_Name_Product</members>
+		<members>FieldSetting.FS_for_Phone</members>
+		<members>FieldSetting.FS_for_Product2Id</members>
+		<members>FieldSetting.FS_for_Shipping_Name</members>
+		<members>FieldSetting.FS_for_ShippingCity</members>
+		<members>FieldSetting.FS_for_ShippingCountry</members>
+		<members>FieldSetting.FS_for_ShippingPostalCode</members>
+		<members>FieldSetting.FS_for_ShippingState</members>
+
+		<members>HttpHeaders.Stripe_Content_Type_Header</members>
+
 		<name>CustomMetadata</name>
 	</types>
-	-->
+	
 	<types>
 		
 		<members>Subscription_Item__c</members>
